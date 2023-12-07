@@ -1,0 +1,117 @@
+.numeric {
+  text-align: end;
+}
+
+/* body {
+  background-color: #6c757d;
+} */
+ 
+.container {
+  background-color: #fff;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+.input-group-text {
+  font-weight: bold;
+}
+
+.hide {
+  display: none;
+}
+
+.main-flex,
+.loan-calculation-header,
+.chart-container {
+  display: flex;
+  width: 100%;
+}
+
+.main-data-picker {
+  width: 60%;
+}
+.main-chart {
+  width: 40%;
+}
+
+.main-chart,
+.loan-calculation-text-section,
+.loan-calculation-chart-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.extra_payment_col {
+  width: 15%;
+}
+
+.app-title {
+  font-family: "Righteous", cursive;
+}
+
+/* @media (min-width: 1400px) {
+  .container {
+    max-width: 1140px;
+  }
+} */
+
+#bar-chart-container {
+  width: 65%;
+}
+
+#pie-chart-container {
+  width: 35%;
+}
+
+.form-range::-webkit-slider-thumb {
+  background-color: var(--bs-secondary);
+}
+
+.form-range::-moz-range-thumb {
+  background-color: var(--bs-secondary);
+}
+
+.form-range::-webkit-slider-runnable-track {
+  background: var(--bs-secondary);
+}
+
+.form-range::-moz-range-progress {
+  background: var(--bs-secondary);
+}
+
+.form-range::-moz-range-track {
+  background: lightgray;
+}
+
+.form-range-ticks {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.form-range-ticks p {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 0px;
+  background: #aaa;
+}
+
+.app-input {
+  width: 15rem;
+}
+
+#loan_start_date {
+  width: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .form-range-ticks,
+  .form-range,
+  .detailed-info {
+    display: none;
+  }
+}
